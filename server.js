@@ -9,7 +9,7 @@ app.use(bodyParser.json());
 app.use(cors());
 
 app.get('/', (req, res)=> {
-	let response = "fruitz api";
+	let response = "chemnewsapi";
 	res.send(response);
 })
 
